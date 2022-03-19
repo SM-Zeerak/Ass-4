@@ -1,5 +1,5 @@
 import 'dart:io';
-// import 'dart:math';
+import 'dart:math';
 void main() {
 //Question No 1
   // final List _nameList = ["Bilal", "Bilal", "Bilal", "Owais", "Owais","Owais"];
@@ -149,9 +149,30 @@ void main() {
 
 //Question 12
 
+  // var number = [];
+
+  // print("insert 1 to 100 number with loop");
+
+  // for (var i = 0; i < 100; i++){
+  //   number.insert(i,i+1);
+  // }
+
+  // int? a = int.parse(stdin.readLineSync()!);
+  // for (var i = 0; i < 100; i++) {
+  //   if (i % a ==0){
+  //     number.remove(i);
+  //   }
+  // }
 
 
+  // var missingnum = [];
 
+  // for (int num in number) {
+  //   if (number.contains(num+1) == false && number.last != num){
+  //     missingnum.add(num + 1);
+  //   }
+  // }
+  // print("Missing Number is : $missingnum");
 //-----------------------------------------------
 
 //Question 13
@@ -166,15 +187,19 @@ void main() {
 
 //Question 14
 
- var a = [5],
-  count = 5;
-var missing = new Array();
+  // var values = new List<int>.generate(9999, (i) => i + 1);
 
-for (var i = 1; i <= count; i++) {
-  if (a.indexOf(i) == -1) {
-    print(missing);
-  }
-}
+  // print("Enter a positive four digit number till 9999");
 
+  // int num = int.parse(stdin.readLineSync()!);
+
+  // for(var i = 0; i < values.length; i++){
+  //   for(var a = 0; a < values.length; a++){
+  //     if(values[i] + values[a] == num){
+  //       print("${values[i]} + ${values[a]} = $num");
+  //     }
+  //   }
+  // }
+//------------------------------------------------------------
 
 }
